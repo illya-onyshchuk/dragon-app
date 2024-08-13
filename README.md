@@ -23,7 +23,7 @@
     npm run dev
     ```
    
-##Deploy
+## Deploy
 
 ### Setup
 
