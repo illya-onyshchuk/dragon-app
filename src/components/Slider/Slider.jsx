@@ -27,10 +27,7 @@ export default function Slider() {
     >
       {test.map((_, index) => (
         <SwiperSlide key={index}>
-          <div
-            className="slide-image"
-            style={{ backgroundImage: `url(/images/dragon.png)` }}
-          >
+          <div className="slide-image">
             <div className="slide-image__content">
               <div className="slide-image__text-content">
                 <h2 className="slide-image__title">STARSHIP CAPABILITIES</h2>

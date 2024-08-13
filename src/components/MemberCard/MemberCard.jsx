@@ -5,7 +5,7 @@ export default function MemberCard() {
     <div className="contributor-card">
       <img
         className="contributor-card__photo"
-        src='/images/person.png'
+        src='./images/person.png'
         alt='Person photo'
       />
       <div className="contributor-card__text">

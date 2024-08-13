@@ -7,11 +7,11 @@ export default function AboutUs() {
       <div className="about-us__wrapper">
         <img
           className="about-us__video"
-          src="/images/mock-video.png"
+          src="./images/mock-video.png"
           alt="Mock video"
         />
         <div className="about-us__play-button">
-          <img src="/images/play-button.png" alt="play button" />
+          <img src="./images/play-button.png" alt="play button" />
         </div>
       </div>
     </section>
