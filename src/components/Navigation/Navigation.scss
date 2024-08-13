@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+
+.nav {
+  padding: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-transform: uppercase;
+
+  &__list {
+    display: flex;
+    gap: 48px;
+  }
+
+  &__item {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      &::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+
+    &::after {
+      height: 2px;
+
+      content: "";
+      position: absolute;
+
+      left: 0;
+      right: 0;
+      bottom: -5px;
+      background-color: $white;
+
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s;
+    }
+  }
+
+  &__button {
+    padding: 8px 12px;
+
+    border: 1px solid $white;
+    border-radius: 21px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s linear, color 0.3s linear;
+
+    &:hover {
+      color: $black;
+      background-color: $white;
+    }
+  }
+}

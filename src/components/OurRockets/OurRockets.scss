@@ -1,0 +1,13 @@
+.rockets {
+  margin-top: 100px;
+
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+  }
+}

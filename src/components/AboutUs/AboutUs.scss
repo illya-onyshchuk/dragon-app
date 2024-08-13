@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.about-us {
+  margin-top: 100px;
+
+  &__title {
+    text-align: center;
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+
+    text-transform: uppercase;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__video {
+    width: 100%;
+    margin-top: 32px;
+
+    border: 1px solid $border;
+    border-radius: 40px;
+  }
+
+  &__play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -25%);
+
+    width: 178px;
+    height: 178px;
+    padding: 45px;
+
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

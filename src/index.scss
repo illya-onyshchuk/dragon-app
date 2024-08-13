@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+@import "./styles/variables.scss";
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+
+  color: $white;
+  background-color: $background;
+}
