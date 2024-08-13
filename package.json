@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d build",
+    "deploy": "vite build && gh-pages -d dist -b $(git rev-parse --abbrev-ref HEAD)",
     "lint": "eslint .",
     "preview": "vite preview"
   },
